@@ -103,6 +103,9 @@ header .mainMenuBurger {
   font-size: 24px;
 }
 
+.launching {
+  margin-bottom: 80px;
+}
 .launching .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,4 +141,28 @@ header .mainMenuBurger {
 }
 .launching__img {
   overflow: hidden;
+}
+
+.free {
+  background: url(../img/background.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.free .container {
+  padding-top: 122px;
+  padding-bottom: 32px;
+}
+.free h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #111111;
+  margin-bottom: 16px;
+}
+.free h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #111111;
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
