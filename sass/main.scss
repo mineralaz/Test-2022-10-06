@@ -4,7 +4,7 @@
 @import "common";
 
 // header/menu---------------------
-header {
+header.container {
   margin: 32px 32px 42px 32px;
   display: flex;
   justify-content: space-between;
@@ -12,17 +12,29 @@ header {
 
   .mainMenuBurger {
     font-size: 24px;
+    color: #999999;
   }
 }
 
 //   1-st section --------------
 .launching {
+  position: relative;
+  width: 600px;
   margin-bottom: 80px;
+
+  .launching__img {
+    width: 420px;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    right: -32px;
+    top: -50px;
+  }
   .container {
     display: flex;
-    gap: 19px;
   }
   &__text {
+    width: 274px;
     h5 {
       font-weight: 700;
       font-size: 16px;
@@ -47,9 +59,6 @@ header {
       color: #555555;
       margin-bottom: 32px;
     }
-  }
-  &__img {
-    overflow-x: hidden;
   }
 }
 // 2-nd section ---------------

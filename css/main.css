@@ -15,6 +15,7 @@ li {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -89,7 +90,7 @@ body {
   border-radius: 16px;
 }
 
-header {
+header.container {
   margin: 32px 32px 42px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,18 +102,31 @@ header {
       -ms-flex-align: center;
           align-items: center;
 }
-header .mainMenuBurger {
+header.container .mainMenuBurger {
   font-size: 24px;
+  color: #999999;
 }
 
 .launching {
+  position: relative;
+  width: 600px;
   margin-bottom: 80px;
+}
+.launching .launching__img {
+  width: 420px;
+  height: auto;
+  position: absolute;
+  overflow: hidden;
+  right: -32px;
+  top: -50px;
 }
 .launching .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 19px;
+}
+.launching__text {
+  width: 274px;
 }
 .launching__text h5 {
   font-weight: 700;
@@ -137,9 +151,6 @@ header .mainMenuBurger {
   line-height: 150%;
   color: #555555;
   margin-bottom: 32px;
-}
-.launching__img {
-  overflow-x: hidden;
 }
 
 .free {
