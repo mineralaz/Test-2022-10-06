@@ -79,7 +79,6 @@ body {
 
 .cardContainer {
   width: 1280px;
-  height: 642px;
   overflow-x: hidden;
 }
 
@@ -114,9 +113,6 @@ header .mainMenuBurger {
   display: -ms-flexbox;
   display: flex;
   gap: 19px;
-}
-.launching__text {
-  width: 70%;
 }
 .launching__text h5 {
   font-weight: 700;
@@ -283,4 +279,55 @@ header .mainMenuBurger {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.greenWoman {
+  position: relative;
+  width: 683px;
+}
+.greenWoman .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.greenWoman .greenWoman__img {
+  position: absolute;
+  overflow-x: hidden;
+  right: 230px;
+  bottom: 0;
+}
+.greenWoman .hr {
+  background-color: #eeeeee;
+  height: 2px;
+  width: 100%;
+  margin-bottom: 64px;
+}
+.greenWoman .hr2 {
+  background: #111111;
+  opacity: 0.08;
+  height: 2px;
+  width: 100%;
+}
+.greenWoman h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ff3998;
+  margin-bottom: 24px;
+}
+.greenWoman h2 {
+  width: 250px;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  color: #111111;
+  margin-bottom: 17px;
+}
+.greenWoman p {
+  display: none;
+}
+.greenWoman .btn {
+  margin: 157px 27px 63px 32px;
 }/*# sourceMappingURL=main.css.map */

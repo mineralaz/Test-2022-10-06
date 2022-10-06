@@ -3,7 +3,7 @@
 @import "./reset";
 @import "common";
 
-// header---------------------
+// header/menu---------------------
 header {
   margin: 32px 32px 42px 32px;
   display: flex;
@@ -23,7 +23,6 @@ header {
     gap: 19px;
   }
   &__text {
-    width: 70%;
     h5 {
       font-weight: 700;
       font-size: 16px;
@@ -179,3 +178,51 @@ header {
   }
 }
 // 5-th section ----------------
+.greenWoman {
+  position: relative;
+  width: 683px;
+  .container {
+    display: flex;
+  }
+  .greenWoman__img {
+    position: absolute;
+    overflow-x: hidden;
+    right: 230px;
+    bottom: 0;
+  }
+  .hr {
+    background-color: #eeeeee;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 64px;
+  }
+  .hr2 {
+    background: #111111;
+    opacity: 0.08;
+    height: 2px;
+    width: 100%;
+  }
+  h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ff3998;
+    margin-bottom: 24px;
+  }
+  h2 {
+    width: 250px;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 68px;
+    color: #111111;
+    margin-bottom: 17px;
+  }
+  p {
+    display: none;
+  }
+  .btn {
+    margin: 157px 27px 63px 32px;
+  }
+}
