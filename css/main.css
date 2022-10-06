@@ -384,6 +384,12 @@ header.container .mainMenuBurger {
   gap: 16px;
   color: #555555;
 }
+.foot .container.last-foot p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #999999;
+}
 .foot .container.last-foot p:first-child {
   margin-top: 44px;
   margin-bottom: 105px;

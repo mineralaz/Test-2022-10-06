@@ -274,7 +274,14 @@ header.container {
       color: #555555;
     }
   }
-
+  .container.last-foot {
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+      color: #999999;
+    }
+  }
   .container.last-foot {
     p:first-child {
       margin-top: 44px;
