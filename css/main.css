@@ -151,6 +151,7 @@ header .mainMenuBurger {
 .free .container {
   padding-top: 122px;
   padding-bottom: 32px;
+  margin-bottom: 0;
 }
 .free h2 {
   font-weight: 500;
@@ -165,4 +166,15 @@ header .mainMenuBurger {
   line-height: 150%;
   color: #111111;
   margin-bottom: 0;
+}
+
+.icons .container {
+  margin-top: 64px;
+  margin-bottom: 56px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 27px;
+}
+.icons .container .opendoor {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

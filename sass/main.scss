@@ -60,6 +60,7 @@ header {
   .container {
     padding-top: 122px;
     padding-bottom: 32px;
+    margin-bottom: 0;
   }
   h2 {
     font-weight: 500;
@@ -74,5 +75,18 @@ header {
     line-height: 150%;
     color: #111111;
     margin-bottom: 0;
+  }
+}
+.icons {
+  .container {
+    margin-top: 64px;
+    margin-bottom: 56px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 27px;
+
+    .opendoor {
+      display: none;
+    }
   }
 }
