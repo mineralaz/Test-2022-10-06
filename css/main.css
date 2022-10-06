@@ -330,4 +330,53 @@ header .mainMenuBurger {
 }
 .greenWoman .btn {
   margin: 157px 27px 63px 32px;
+}
+
+.foot {
+  margin-top: 67px;
+}
+.foot .container.foot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.foot h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555555;
+  margin-top: 40px;
+}
+.foot p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #555555;
+}
+.foot .logoIcons {
+  margin-bottom: 24px;
+  grid-column: span 2;
+}
+.foot .logoIcons p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #555555;
+  margin-top: 30px;
+  margin-bottom: 32px;
+}
+.foot .logoIcons__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  color: #555555;
+}
+.foot .container.last-foot p:first-child {
+  margin-top: 44px;
+  margin-bottom: 105px;
+}
+.foot .container.last-foot .foot__mobileNone {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

@@ -226,3 +226,52 @@ header {
     margin: 157px 27px 63px 32px;
   }
 }
+// footer ----------------------
+.foot {
+  margin-top: 67px;
+  .container.foot-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #555555;
+    margin-top: 40px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #555555;
+  }
+  .logoIcons {
+    margin-bottom: 24px;
+    grid-column: span 2;
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+      color: #555555;
+      margin-top: 30px;
+      margin-bottom: 32px;
+    }
+    &__icons {
+      display: flex;
+      gap: 16px;
+      color: #555555;
+    }
+  }
+  .container.last-foot {
+    p:first-child {
+      margin-top: 44px;
+      margin-bottom: 105px;
+    }
+    .foot__mobileNone {
+      display: none;
+    }
+  }
+}
