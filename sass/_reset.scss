@@ -3,7 +3,6 @@
 }
 
 a {
-  text-decoration: none;
   color: inherit;
 }
 li {
@@ -22,14 +21,6 @@ h5,
 h6,
 p {
   margin-top: 0;
-}
-
-.card {
-  padding: 1rem;
-  box-shadow: 5px 5px 10px rgb(180, 190, 194);
-  border: 1px solid rgb(191, 180, 180);
-  border-radius: 5px;
-  background-color: snow;
 }
 
 /*  helpers */

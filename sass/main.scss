@@ -50,9 +50,10 @@ header {
     }
   }
   &__img {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
+// 2-nd section ---------------
 .free {
   background: url(../img/background.svg) no-repeat;
   background-size: cover;
@@ -77,6 +78,7 @@ header {
     margin-bottom: 0;
   }
 }
+// 3-rd section -----------------
 .icons {
   .container {
     margin-top: 64px;
@@ -90,3 +92,90 @@ header {
     }
   }
 }
+// 4-th section ----------------
+.auction {
+  margin-bottom: 92px;
+  .cardContainer {
+    display: flex;
+    overflow: hidden;
+    gap: 40px;
+  }
+  h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #111111;
+    margin-bottom: 16px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+    margin-bottom: 40px;
+  }
+}
+.card__description {
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+
+  h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #111111;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+
+  .first-half {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    small {
+      color: #ff8139;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 100%;
+      text-transform: uppercase;
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      color: #777777;
+    }
+  }
+  .second-half {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    small {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 100%;
+      text-align: right;
+      text-transform: uppercase;
+      color: #777777;
+    }
+    h4 {
+      text-align: right;
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 100%;
+      text-align: right;
+      color: #777777;
+    }
+    .eth {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+  }
+}
+// 5-th section ----------------
