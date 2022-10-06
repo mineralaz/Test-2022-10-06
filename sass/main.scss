@@ -275,20 +275,18 @@ header.container {
     }
   }
   .container.last-foot {
+    .foot__mobileNone {
+      display: none;
+    }
     p {
       font-weight: 400;
       font-size: 20px;
       line-height: 100%;
       color: #999999;
     }
-  }
-  .container.last-foot {
     p:first-child {
       margin-top: 44px;
       margin-bottom: 105px;
-    }
-    .foot__mobileNone {
-      display: none;
     }
   }
 }

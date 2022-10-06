@@ -384,6 +384,9 @@ header.container .mainMenuBurger {
   gap: 16px;
   color: #555555;
 }
+.foot .container.last-foot .foot__mobileNone {
+  display: none;
+}
 .foot .container.last-foot p {
   font-weight: 400;
   font-size: 20px;
@@ -393,7 +396,4 @@ header.container .mainMenuBurger {
 .foot .container.last-foot p:first-child {
   margin-top: 44px;
   margin-bottom: 105px;
-}
-.foot .container.last-foot .foot__mobileNone {
-  display: none;
 }/*# sourceMappingURL=main.css.map */
