@@ -1,6 +1,9 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 @import "./reset";
+@import "common";
+
+// header---------------------
 header {
   margin: 32px 32px 42px 32px;
   display: flex;
@@ -9,5 +12,43 @@ header {
 
   .mainMenuBurger {
     font-size: 24px;
+  }
+}
+
+//   1-st section --------------
+.launching {
+  .container {
+    display: flex;
+    gap: 19px;
+  }
+  &__text {
+    width: 70%;
+    h5 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #ff3998;
+      margin-top: 38px;
+    }
+    h2 {
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 58px;
+      color: #111111;
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 150%;
+      color: #555555;
+      margin-bottom: 32px;
+    }
+  }
+  &__img {
+    overflow: hidden;
   }
 }
