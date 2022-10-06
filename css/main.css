@@ -60,6 +60,7 @@ p {
 
 body {
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -109,7 +110,6 @@ header.container .mainMenuBurger {
 
 .launching {
   position: relative;
-  width: 600px;
   margin-bottom: 80px;
 }
 .launching .launching__img {
@@ -117,7 +117,7 @@ header.container .mainMenuBurger {
   height: auto;
   position: absolute;
   overflow: hidden;
-  right: -32px;
+  right: -203px;
   top: -50px;
 }
 .launching .container {
@@ -188,7 +188,6 @@ header.container .mainMenuBurger {
 .icons .container .opendoor {
   display: none;
 }
-
 .auction {
   margin-bottom: 92px;
 }
@@ -294,7 +293,6 @@ header.container .mainMenuBurger {
 
 .greenWoman {
   position: relative;
-  width: 683px;
 }
 .greenWoman .container {
   display: -webkit-box;
@@ -304,7 +302,7 @@ header.container .mainMenuBurger {
 .greenWoman .greenWoman__img {
   position: absolute;
   overflow-x: hidden;
-  right: 230px;
+  right: -30px;
   bottom: 0;
 }
 .greenWoman .hr {

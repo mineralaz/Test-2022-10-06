@@ -19,7 +19,6 @@ header.container {
 //   1-st section --------------
 .launching {
   position: relative;
-  width: 600px;
   margin-bottom: 80px;
 
   .launching__img {
@@ -27,7 +26,7 @@ header.container {
     height: auto;
     position: absolute;
     overflow: hidden;
-    right: -32px;
+    right: -203px;
     top: -50px;
   }
   .container {
@@ -97,6 +96,8 @@ header.container {
 
     .opendoor {
       display: none;
+    }
+    .boom {
     }
   }
 }
@@ -189,14 +190,13 @@ header.container {
 // 5-th section ----------------
 .greenWoman {
   position: relative;
-  width: 683px;
   .container {
     display: flex;
   }
   .greenWoman__img {
     position: absolute;
     overflow-x: hidden;
-    right: 230px;
+    right: -30px;
     bottom: 0;
   }
   .hr {
