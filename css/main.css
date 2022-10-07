@@ -229,6 +229,9 @@ header.container .mainMenu li:last-of-type {
   color: #555555;
   margin-bottom: 40px;
 }
+.auction p a {
+  font-weight: 500;
+}
 
 .card__description {
   padding: 24px;
@@ -483,5 +486,14 @@ header.container .mainMenu li:last-of-type {
   }
   .icons .container .opendoor {
     display: block;
+  }
+  .auction {
+    margin-bottom: 120px;
+  }
+  .auction h2 {
+    margin-bottom: 24px;
+  }
+  .auction p {
+    margin-bottom: 56px;
   }
 }/*# sourceMappingURL=main.css.map */
