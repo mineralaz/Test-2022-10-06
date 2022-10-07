@@ -461,9 +461,11 @@ header.container .mainMenu li:last-of-type {
   }
   .free {
     margin: 0 80px;
+    background: url(../img/background.svg) no-repeat;
     background-size: 100%;
   }
   .free .container {
+    margin: 0;
     padding: 154px 596px 64px 64px;
   }
   .free h2 {

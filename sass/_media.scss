@@ -44,9 +44,11 @@
   //   2nd section -------------------
   .free {
     margin: 0 80px;
+    background: url(../img/background.svg) no-repeat;
     background-size: 100%;
 
     .container {
+      margin: 0;
       padding: 154px 596px 64px 64px;
     }
     h2 {
