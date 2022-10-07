@@ -42,4 +42,19 @@
     }
   }
   //   2nd section -------------------
+  .free {
+    margin: 0 80px;
+    background-size: 100%;
+
+    .container {
+      padding: 154px 596px 64px 64px;
+    }
+    h2 {
+      margin-bottom: 24px;
+    }
+    h4 {
+      width: auto;
+      line-height: 30px;
+    }
+  }
 }
