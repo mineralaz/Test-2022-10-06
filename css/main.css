@@ -496,4 +496,35 @@ header.container .mainMenu li:last-of-type {
   .auction p {
     margin-bottom: 56px;
   }
+  .greenWoman .container {
+    margin-top: 0;
+  }
+  .greenWoman .greenWoman__img {
+    right: 221px;
+  }
+  .greenWoman .hr {
+    margin: 0 80px;
+    width: auto;
+  }
+  .greenWoman .hr2 {
+    display: none;
+  }
+  .greenWoman h5 {
+    margin-top: 120px;
+    margin-bottom: 24px;
+  }
+  .greenWoman h2 {
+    width: 620px;
+    margin-bottom: 24px;
+  }
+  .greenWoman p {
+    width: 537px;
+  }
+  .greenWoman p span {
+    display: inline-block;
+  }
+  .greenWoman .btn {
+    margin-top: 40px;
+    margin-bottom: 120px;
+  }
 }/*# sourceMappingURL=main.css.map */
