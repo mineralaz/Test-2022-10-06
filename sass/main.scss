@@ -272,6 +272,10 @@ header.container {
   margin-top: 67px;
   .container.foot-grid {
     display: grid;
+    grid-template-columns: 1fr;
+  }
+  .foot-grid__texts {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   h5 {

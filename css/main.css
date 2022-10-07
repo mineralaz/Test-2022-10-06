@@ -371,6 +371,10 @@ header.container .mainMenu li:last-of-type {
 }
 .foot .container.foot-grid {
   display: grid;
+  grid-template-columns: 1fr;
+}
+.foot .foot-grid__texts {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 .foot h5 {
