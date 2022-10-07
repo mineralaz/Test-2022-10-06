@@ -461,26 +461,16 @@ header.container .mainMenu li:last-of-type {
   }
   .free {
     margin: 0 80px;
-    background: url(../img/background.svg) no-repeat;
     background-size: 100%;
   }
   .free .container {
-    margin: 0;
     padding: 154px 596px 64px 64px;
   }
   .free h2 {
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
-    color: #111111;
     margin-bottom: 24px;
   }
   .free h4 {
     width: auto;
-    font-weight: 400;
-    font-size: 20px;
     line-height: 30px;
-    color: #111111;
-    margin-bottom: 0;
   }
 }/*# sourceMappingURL=main.css.map */
