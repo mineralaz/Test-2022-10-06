@@ -60,11 +60,10 @@ p {
 
 body {
   font-family: "Inter", sans-serif;
-  overflow-x: hidden;
 }
 
 .container {
-  margin: 32px 32px;
+  margin: 32px 0px 32px 32px;
 }
 
 .btn {
@@ -81,7 +80,6 @@ body {
 
 .cardContainer {
   width: 1280px;
-  overflow-x: hidden;
 }
 
 .card {
@@ -109,24 +107,24 @@ header.container .mainMenuBurger {
 }
 
 .launching {
-  position: relative;
   margin-bottom: 80px;
-}
-.launching .launching__img {
-  width: 420px;
-  height: auto;
-  position: absolute;
-  overflow: hidden;
-  right: -203px;
-  top: -50px;
 }
 .launching .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  overflow-x: hidden;
+}
+.launching .launching__img {
+  width: 420px;
+  height: auto;
+  position: absolute;
+  right: -203px;
+  top: -50px;
 }
 .launching__text {
-  width: 274px;
+  width: 270px;
 }
 .launching__text h5 {
   font-weight: 700;
@@ -155,8 +153,7 @@ header.container .mainMenuBurger {
 
 .free {
   background: url(../img/background.svg) no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: auto;
 }
 .free .container {
   padding-top: 122px;
@@ -191,11 +188,13 @@ header.container .mainMenuBurger {
 .auction {
   margin-bottom: 92px;
 }
+.auction .container {
+  overflow-x: hidden;
+}
 .auction .cardContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
   gap: 40px;
 }
 .auction h2 {
@@ -291,17 +290,15 @@ header.container .mainMenuBurger {
           align-items: center;
 }
 
-.greenWoman {
-  position: relative;
-}
 .greenWoman .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  overflow-x: hidden;
 }
 .greenWoman .greenWoman__img {
   position: absolute;
-  overflow-x: hidden;
   right: -30px;
   bottom: 0;
 }
@@ -335,6 +332,14 @@ header.container .mainMenuBurger {
   margin-bottom: 17px;
 }
 .greenWoman p {
+  width: 205px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+  margin-top: 24px;
+}
+.greenWoman p span {
   display: none;
 }
 .greenWoman .btn {

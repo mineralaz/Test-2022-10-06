@@ -1,9 +1,8 @@
 body {
   font-family: "Inter", sans-serif;
-  overflow-x: hidden;
 }
 .container {
-  margin: 32px 32px;
+  margin: 32px 0px 32px 32px;
 }
 .btn {
   font-weight: 600;
@@ -18,7 +17,6 @@ body {
 }
 .cardContainer {
   width: 1280px;
-  overflow-x: hidden;
 }
 .card {
   height: 400px;

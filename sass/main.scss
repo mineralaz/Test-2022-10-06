@@ -18,22 +18,22 @@ header.container {
 
 //   1-st section --------------
 .launching {
-  position: relative;
   margin-bottom: 80px;
-
+  .container {
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+  }
   .launching__img {
     width: 420px;
     height: auto;
     position: absolute;
-    overflow: hidden;
     right: -203px;
     top: -50px;
   }
-  .container {
-    display: flex;
-  }
+
   &__text {
-    width: 274px;
+    width: 270px;
     h5 {
       font-weight: 700;
       font-size: 16px;
@@ -63,8 +63,8 @@ header.container {
 // 2-nd section ---------------
 .free {
   background: url(../img/background.svg) no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: auto;
+
   .container {
     padding-top: 122px;
     padding-bottom: 32px;
@@ -104,9 +104,11 @@ header.container {
 // 4-th section ----------------
 .auction {
   margin-bottom: 92px;
+  .container {
+    overflow-x: hidden;
+  }
   .cardContainer {
     display: flex;
-    overflow: hidden;
     gap: 40px;
   }
   h2 {
@@ -189,13 +191,13 @@ header.container {
 }
 // 5-th section ----------------
 .greenWoman {
-  position: relative;
   .container {
     display: flex;
+    position: relative;
+    overflow-x: hidden;
   }
   .greenWoman__img {
     position: absolute;
-    overflow-x: hidden;
     right: -30px;
     bottom: 0;
   }
@@ -229,7 +231,15 @@ header.container {
     margin-bottom: 17px;
   }
   p {
-    display: none;
+    width: 205px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+    span {
+      display: none;
+    }
+    margin-top: 24px;
   }
   .btn {
     margin: 157px 27px 63px 32px;
