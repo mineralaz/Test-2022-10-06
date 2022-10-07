@@ -202,6 +202,7 @@ header.container .mainMenu li:last-of-type {
 .icons .container .opendoor {
   display: none;
 }
+
 .auction {
   margin-bottom: 92px;
 }
@@ -474,5 +475,13 @@ header.container .mainMenu li:last-of-type {
   .free h4 {
     width: auto;
     line-height: 30px;
+  }
+  .icons .container {
+    margin: 120px 80px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 106px;
+  }
+  .icons .container .opendoor {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */

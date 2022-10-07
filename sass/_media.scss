@@ -59,4 +59,15 @@
       line-height: 30px;
     }
   }
+  //   3rd section ---------------
+  .icons {
+    .container {
+      margin: 120px 80px;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 106px;
+      .opendoor {
+        display: block;
+      }
+    }
+  }
 }
