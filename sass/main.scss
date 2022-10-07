@@ -33,7 +33,7 @@ header.container {
   }
 
   &__text {
-    width: 270px;
+    width: 271px;
     h5 {
       font-weight: 700;
       font-size: 16px;
@@ -63,8 +63,8 @@ header.container {
 // 2-nd section ---------------
 .free {
   background: url(../img/background.svg) no-repeat;
-  background-size: auto;
-
+  background-size: cover;
+  background-position: -750px;
   .container {
     padding-top: 122px;
     padding-bottom: 32px;
@@ -78,6 +78,7 @@ header.container {
     margin-bottom: 16px;
   }
   h4 {
+    width: 360px;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
@@ -192,9 +193,9 @@ header.container {
 // 5-th section ----------------
 .greenWoman {
   .container {
-    display: flex;
     position: relative;
     overflow-x: hidden;
+    margin-bottom: 0;
   }
   .greenWoman__img {
     position: absolute;
@@ -205,13 +206,11 @@ header.container {
     background-color: #eeeeee;
     height: 2px;
     width: 100%;
-    margin-bottom: 64px;
   }
   .hr2 {
     background: #111111;
     opacity: 0.08;
     height: 2px;
-    width: 100%;
   }
   h5 {
     font-weight: 700;
@@ -220,6 +219,7 @@ header.container {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #ff3998;
+    margin-top: 32px;
     margin-bottom: 24px;
   }
   h2 {
@@ -239,10 +239,12 @@ header.container {
     span {
       display: none;
     }
-    margin-top: 24px;
+    margin-top: 5px;
+    margin-bottom: 0;
   }
   .btn {
-    margin: 157px 27px 63px 32px;
+    margin-top: 32px;
+    margin-bottom: 66px;
   }
 }
 // footer ----------------------
@@ -281,7 +283,7 @@ header.container {
     &__icons {
       display: flex;
       gap: 16px;
-      color: #555555;
+      color: #999999;
     }
   }
   .container.last-foot {
