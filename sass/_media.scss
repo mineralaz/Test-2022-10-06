@@ -5,6 +5,7 @@
   }
   // Header
   header.container {
+    margin: 70px 80px 182px 80px;
     .mainMenuBurger {
       display: none;
     }
@@ -115,4 +116,45 @@
     }
   }
   //   Footer ---------
+  .foot {
+    margin-top: 120px;
+    .container.foot-grid {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .foot-grid__texts {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 80px;
+    }
+
+    h5 {
+      margin-top: 0px;
+      margin-bottom: 28px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+      color: #555555;
+    }
+    .logoIcons {
+      margin-bottom: 0px;
+    }
+    .container.last-foot {
+      margin-top: 100px;
+      margin-bottom: 71px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .foot__mobileNone {
+        display: block;
+        margin: 0;
+      }
+      p:first-child {
+        margin: 0;
+      }
+    }
+  }
 }

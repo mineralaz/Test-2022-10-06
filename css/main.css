@@ -430,6 +430,9 @@ header.container .mainMenu li:last-of-type {
     margin-left: 80px;
     margin-right: 80px;
   }
+  header.container {
+    margin: 70px 80px 182px 80px;
+  }
   header.container .mainMenuBurger {
     display: none;
   }
@@ -530,5 +533,54 @@ header.container .mainMenu li:last-of-type {
   .greenWoman .btn {
     margin-top: 40px;
     margin-bottom: 120px;
+  }
+  .foot {
+    margin-top: 120px;
+  }
+  .foot .container.foot-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .foot .foot-grid__texts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+  }
+  .foot h5 {
+    margin-top: 0px;
+    margin-bottom: 28px;
+  }
+  .foot p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #555555;
+  }
+  .foot .logoIcons {
+    margin-bottom: 0px;
+  }
+  .foot .container.last-foot {
+    margin-top: 100px;
+    margin-bottom: 71px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .foot .container.last-foot .foot__mobileNone {
+    display: block;
+    margin: 0;
+  }
+  .foot .container.last-foot p:first-child {
+    margin: 0;
   }
 }/*# sourceMappingURL=main.css.map */
