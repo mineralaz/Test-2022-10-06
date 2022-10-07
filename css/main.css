@@ -90,7 +90,7 @@ body {
 }
 
 header.container {
-  margin: 70px 80px 182px 80px;
+  margin: 32px 32px 42px 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
