@@ -1,0 +1,11 @@
+@media screen and (min-width: 1440px) {
+  // Header
+  header.container {
+    .mainMenuBurger {
+      display: none;
+    }
+    .mainMenu {
+      display: flex;
+    }
+  }
+}

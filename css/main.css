@@ -90,7 +90,7 @@ body {
 }
 
 header.container {
-  margin: 32px 32px 42px 32px;
+  margin: 70px 80px 182px 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,9 +101,27 @@ header.container {
       -ms-flex-align: center;
           align-items: center;
 }
-header.container .mainMenuBurger {
-  font-size: 32px;
+header.container .mainMenuBurger span::before {
+  font-weight: bold !important;
+  cursor: pointer;
   color: #999999;
+  font-size: 32px;
+}
+header.container .mainMenu {
+  display: none;
+  padding: 0;
+  margin: 0;
+  gap: 28px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #555555;
+}
+header.container .mainMenu a {
+  text-decoration: none;
+}
+header.container .mainMenu li:last-of-type {
+  color: #ff3998;
 }
 
 .launching {
@@ -400,4 +418,15 @@ header.container .mainMenuBurger {
 .foot .container.last-foot p:first-child {
   margin-top: 44px;
   margin-bottom: 105px;
+}
+
+@media screen and (min-width: 1440px) {
+  header.container .mainMenuBurger {
+    display: none;
+  }
+  header.container .mainMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }/*# sourceMappingURL=main.css.map */
