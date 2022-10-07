@@ -11,7 +11,7 @@ header.container {
   align-items: center;
 
   .mainMenuBurger {
-    font-size: 24px;
+    font-size: 32px;
     color: #999999;
   }
 }
@@ -23,6 +23,7 @@ header.container {
     display: flex;
     position: relative;
     overflow-x: hidden;
+    margin-bottom: 80px;
   }
   .launching__img {
     width: 420px;
@@ -33,7 +34,7 @@ header.container {
   }
 
   &__text {
-    width: 271px;
+    width: 274px;
     h5 {
       font-weight: 700;
       font-size: 16px;
@@ -42,6 +43,7 @@ header.container {
       text-transform: uppercase;
       color: #ff3998;
       margin-top: 38px;
+      margin-bottom: 24px;
     }
     h2 {
       font-weight: 900;
@@ -66,9 +68,8 @@ header.container {
   background-size: cover;
   background-position: -750px;
   .container {
-    padding-top: 122px;
-    padding-bottom: 32px;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 122px 32px 32px 32px;
   }
   h2 {
     font-weight: 500;
@@ -89,8 +90,7 @@ header.container {
 // 3-rd section -----------------
 .icons {
   .container {
-    margin-top: 64px;
-    margin-bottom: 56px;
+    margin: 64px 32px 56px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 27px;
@@ -106,7 +106,7 @@ header.container {
 .auction {
   margin-bottom: 92px;
   .container {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .cardContainer {
     display: flex;
