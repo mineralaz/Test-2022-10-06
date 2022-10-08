@@ -367,7 +367,7 @@ header.container .mainMenu li:last-of-type {
 }
 
 .foot {
-  margin-top: 67px;
+  margin-top: 64px;
 }
 .foot .container.foot-grid {
   display: grid;
@@ -410,6 +410,9 @@ header.container .mainMenu li:last-of-type {
   display: flex;
   gap: 16px;
   color: #999999;
+}
+.foot .container.last-foot {
+  margin-right: 110px;
 }
 .foot .container.last-foot .foot__mobileNone {
   display: none;

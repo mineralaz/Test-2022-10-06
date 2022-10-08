@@ -269,7 +269,7 @@ header.container {
 }
 // footer ----------------------
 .foot {
-  margin-top: 67px;
+  margin-top: 64px;
   .container.foot-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -311,6 +311,7 @@ header.container {
     }
   }
   .container.last-foot {
+    margin-right: 110px;
     .foot__mobileNone {
       display: none;
     }
