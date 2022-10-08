@@ -445,7 +445,7 @@ header.container .mainMenu li:last-of-type {
     display: flex;
   }
   .launching {
-    margin-bottom: 182px;
+    margin-bottom: 200px;
   }
   .launching .container {
     margin-bottom: 80px;
@@ -528,6 +528,7 @@ header.container .mainMenu li:last-of-type {
     margin-bottom: 24px;
   }
   .greenWoman p {
+    margin-top: 0;
     width: 537px;
   }
   .greenWoman p span {
@@ -541,6 +542,7 @@ header.container .mainMenu li:last-of-type {
     margin-top: 120px;
   }
   .foot .container.foot-grid {
+    margin-right: 110px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -567,6 +569,7 @@ header.container .mainMenu li:last-of-type {
     margin-bottom: 0px;
   }
   .foot .container.last-foot {
+    margin-right: 80px;
     margin-top: 100px;
     margin-bottom: 71px;
     display: -webkit-box;

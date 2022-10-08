@@ -15,7 +15,7 @@
   }
   //   1st section ------------
   .launching {
-    margin-bottom: 182px;
+    margin-bottom: 200px;
     .container {
       margin-bottom: 80px;
       display: flex;
@@ -105,6 +105,7 @@
       margin-bottom: 24px;
     }
     p {
+      margin-top: 0;
       width: 537px;
       span {
         display: inline-block;
@@ -119,6 +120,7 @@
   .foot {
     margin-top: 120px;
     .container.foot-grid {
+      margin-right: 110px;
       display: flex;
       justify-content: space-between;
     }
@@ -143,6 +145,7 @@
       margin-bottom: 0px;
     }
     .container.last-foot {
+      margin-right: 80px;
       margin-top: 100px;
       margin-bottom: 71px;
       display: flex;
