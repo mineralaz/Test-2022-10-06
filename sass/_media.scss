@@ -1,0 +1,163 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  // Header
+  header.container {
+    margin: 70px 80px 182px 80px;
+    .mainMenuBurger {
+      display: none;
+    }
+    .mainMenu {
+      display: flex;
+    }
+  }
+  //   1st section ------------
+  .launching {
+    margin-bottom: 200px;
+    .container {
+      margin-bottom: 80px;
+      display: flex;
+      gap: 146px;
+      overflow-y: hidden;
+    }
+    .launching__img {
+      width: 700px;
+      height: auto;
+      position: absolute;
+      right: -50px;
+      top: -60px;
+    }
+
+    &__text {
+      width: 43%;
+      h2 {
+        font-size: 96px;
+        line-height: 116px;
+      }
+      p {
+        margin-top: 32px;
+        margin-bottom: 41px;
+      }
+    }
+  }
+  //   2nd section -------------------
+  .free {
+    margin: 0 80px;
+    background: url(../img/background.svg) no-repeat;
+    background-size: 100%;
+
+    .container {
+      margin: 0;
+      padding: 154px 596px 64px 64px;
+    }
+    h2 {
+      margin-bottom: 24px;
+    }
+    h4 {
+      width: auto;
+      line-height: 30px;
+    }
+  }
+  //   3rd section ---------------
+  .icons {
+    .container {
+      margin: 120px 80px;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 106px;
+      .opendoor {
+        display: block;
+      }
+    }
+  }
+  //   4th section -------------
+  .auction {
+    margin-bottom: 120px;
+    h2 {
+      margin-bottom: 24px;
+    }
+    p {
+      margin-bottom: 56px;
+    }
+  }
+  //   5th section -------------
+  .greenWoman {
+    .container {
+      margin-top: 0;
+    }
+    .greenWoman__img {
+      right: 221px;
+    }
+    .hr {
+      margin: 0 80px;
+      width: auto;
+    }
+    .hr2 {
+      display: none;
+    }
+    h5 {
+      margin-top: 120px;
+      margin-bottom: 24px;
+    }
+    h2 {
+      width: 620px;
+      margin-bottom: 24px;
+    }
+    p {
+      margin-top: 0;
+      width: 537px;
+      span {
+        display: inline-block;
+      }
+    }
+    .btn {
+      margin-top: 40px;
+      margin-bottom: 120px;
+    }
+  }
+  //   Footer ---------
+  .foot {
+    margin-top: 120px;
+    .container.foot-grid {
+      margin-right: 110px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .foot-grid__texts {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 80px;
+    }
+
+    h5 {
+      margin-top: 0px;
+      margin-bottom: 28px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+      color: #555555;
+    }
+    .logoIcons {
+      margin-bottom: 0px;
+    }
+    .container.last-foot {
+      margin-right: 80px;
+      margin-top: 100px;
+      margin-bottom: 71px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .foot__mobileNone {
+        display: block;
+        margin: 0;
+      }
+      p:first-child {
+        margin: 0;
+      }
+    }
+  }
+}
